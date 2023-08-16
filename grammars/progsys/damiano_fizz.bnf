@@ -4,8 +4,8 @@
 <vars> ::= <var>
 <var> ::= "v0" | "v1" | "v2" | "v3"
 
-<code> ::= <statement> | <code><statement>
-<statement> ::= <stmt_list><NEWLINE> | <compound_stmt>
+<code> ::= <statement> | <code><statement> | <statement> | <statement> | <statement>
+<statement> ::= <stmt_list><NEWLINE> | <compound_stmt> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE> | <stmt_list><NEWLINE>
 <compound_stmt> ::= <if>
 <stmt_list> ::= <assign> | <return>
 

@@ -1,10 +1,10 @@
 <predefined> ::= "def evolve("<var>"):{:"<NEWLINE><code>":}"
 
 <NEWLINE> ::= "#"
-<var> ::= "v0" | "v1" | "v2" | "v3" | "v4" | "v5" | "v6"
+<var> ::= "v0" | "v1" | "v2" | "v3" | "v4"
 
-<code> ::= <statement> | <code><statement>
-<statement> ::= <stmt_list><NEWLINE> | <compound_stmt>
+<code> ::= <statement> | <code><statement> | <statement> 
+<statement> ::= <stmt_list><NEWLINE> | <compound_stmt> | <stmt_list><NEWLINE>
 <compound_stmt> ::= <for>
 <stmt_list> ::= <assign> | <return> | <update_var>
 
