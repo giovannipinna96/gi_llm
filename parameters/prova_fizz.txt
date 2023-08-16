@@ -1,0 +1,26 @@
+CODON_SIZE:              1000
+CACHE:                   False
+CROSSOVER:               variable_twopoint
+CROSSOVER_PROBABILITY:   0.8
+DATASET_TEST:            Fizz Buzz/Test.txt
+DATASET_TRAIN:           Fizz Buzz/Train.txt
+DEBUG:                   False
+ERROR_METRIC:            mse
+FITNESS_FILE:            fitness_cases.txt
+FITNESS_FUNCTION:        progimpr
+GENERATIONS:             1000
+ELITE_SIZE:              100
+GRAMMAR_FILE:            pybnf_spaces.bnf
+INITIALISATION:          seed_individuals
+INVALID_SELECTION:       False
+MAX_GENOME_LENGTH:       2000
+MAX_INIT_TREE_DEPTH:     10
+MAX_TREE_DEPTH:          100
+MUTATION:                int_flip_per_codon
+MUTATION_PROBABILITY:    0.7
+POPULATION_SIZE:         20000
+REPLACEMENT:             generational
+SELECTION:               tournament
+TARGET_SEED_FOLDER:      2_ChatGPT_problem8_print
+TOURNAMENT_SIZE:         500
+VERBOSE:                 True
